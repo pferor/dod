@@ -1,0 +1,19 @@
+Decrypts argument through crypt function (DES-based) using
+a dictionary.
+
+Options:
+ Usage: ./dod [options] -d <dict> DES_string
+  -d <dict>  --dictionary <dic>  Uses <dict> dictionary
+  -h         --help              Shows this help and exits
+  -V         --version           Display version and exits
+  -v         --verbose           Verbose mode on
+
+Syntax:
+  $ dod [options] -d <dictionary> <DES_encrypted_string>
+
+Example:
+  $ dod -v --dictionary="mydictionary.dic" ZX9XTlIfPvdGE
+
+Build:
+  $ make all
+
